@@ -119,7 +119,11 @@ a:active
 }
 
 .content h2 {
-    padding: 20px;
+    padding: 25px;
+}
+
+.content h3 {
+    padding: 25px;
 }
 
 .grid-container {
