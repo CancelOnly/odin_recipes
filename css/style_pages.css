@@ -95,18 +95,21 @@ a:active
     border-radius: 5px;
     cursor: pointer;
     position: relative;
+    height: max-content;
 }
 /* conteudo da grade*/
 
 .content {
     font-family: "Poppins Light", sans-serif;
     color: white;
+    margin-bottom: 50px;
 }
 
 .content ul li {
     text-align: left;
     margin-left: 30px;
     padding-top: 20px;
+    
 }
 
 .content p {
@@ -124,7 +127,7 @@ a:active
     width: 100%;
     display: inline-grid;
     grid-template-columns: 930px;
-    grid-template-rows: 500px 600px 450px;
+    grid-template-rows: auto 600px 450px;
     grid-gap: 15px;
     justify-content: center;       
 }
