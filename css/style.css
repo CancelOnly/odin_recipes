@@ -146,3 +146,42 @@ a:active
     opacity: 0.5;
     transition-delay: 0.3s; 
 }
+
+.grid-container2 {
+    height: 100%;
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 450px ;
+    grid-gap: 15px;
+    justify-content: center;
+    margin-bottom: 150px ;      
+}
+/*all hover fx*/
+.grid-container2 .content {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-align: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.grid-container2 .board:hover .content {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.3s; 
+}
+
+.grid-container2 .img-bg {
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in;
+}
+
+.grid-container2 .board:hover .img-bg {
+    opacity: 0.5;
+    transition-delay: 0.3s; 
+}
